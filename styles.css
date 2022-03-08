@@ -1,1 +1,97 @@
-/* Write your CSS here! */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(90, 12, 80);
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #a246b5;
+    color: white;
+
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+}
+
+
+.footer {
+    overflow: hidden;
+    background-color: rgb(90, 12, 80);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid white;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color:  #b88ec0 ;
+  padding: 10px;
+  
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
